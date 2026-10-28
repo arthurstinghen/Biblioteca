@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biblioteca Escolar</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+
+<body>
+
+    <header>
+        <div class="topo">
+            <h1>Biblioteca Escolar</h1>
+            <p>Aluno: João Silva</p>
+            <nav>
+                <a class="ativo" href="index.html">Início</a>
+                <a href="busca.html">Buscar livros</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section>
+            <h2>Resumo</h2>
+            <ul class="resumo">
+                <li><strong>3</strong> empréstimos ativos</li>
+                <li><strong>2 dias</strong> para a devolução mais próxima</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Meus empréstimos</h2>
+
+            <div class="card">
+                <div>
+                    <h3>Dom Casmurro</h3>
+                    <p>Machado de Assis</p>
+                </div>
+                <span class="prazo urgente">Devolução 12/10</span>
+            </div>
+
+            <div class="card">
+                <div>
+                    <h3>O Cortiço</h3>
+                    <p>Aluísio Azevedo</p>
+                </div>
+                <span class="prazo">Devolução 19/10</span>
+            </div>
+
+            <div class="card">
+                <div>
+                    <h3>Vidas Secas</h3>
+                    <p>Graciliano Ramos</p>
+                </div>
+                <span class="prazo">Devolução 24/10</span>
+            </div>
+        </section>
+
+        <section>
+            <h2>Livros disponíveis</h2>
+            <ul class="livros">
+                <li>
+                    <div>Iracema <span>José de Alencar</span></div>
+                    <a class="botao secundario" href="confirmar.html">Pedir empréstimo</a>
+                </li>
+                <li>
+                    <div>O Guarani <span>José de Alencar</span></div>
+                    <a class="botao secundario" href="confirmar.html">Pedir empréstimo</a>
+                </li>
+            </ul>
+        </section>
+
+        <a class="botao" href="busca.html">Buscar livros</a>
+    </main>
+
+</body>
+
+</html>
